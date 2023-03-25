@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./accset/style-gallery.css">
+    <link rel="stylesheet" href="./accset/font/themify-icons/themify-icons.css">
+    <title>Document</title>
+    <script src="./accset/js/jquery.min.js" ></script>
+    <script >
+        $(window).bind('scroll',function () {
+            var pos = window.scrollY;
+            if (pos >200) {
+                $('.scroll-header').show();
+
+            }
+            else{
+                 $('.scroll-header').hide();
+            }
+        });
+</script>
+</head>
+<body>
+    <div id="main">
+        <div class="scroll-header">
+            <div class="header-logo">
+                <img src="./accset/img/logol.png" alt="">
+            </div>
+      
+            <div class="header-nav">
+                <ul class="header-nav-list ">
+                    <li ><a href="./index.html" style="color:#ED703A;">Home</a></li>
+                    <li class="header-nav-list--seperate"> <a href="">Our hotel</a></li>
+                    <li class="header-nav-list--seperate"><a href="">Rooms</a></li>
+                    <li class="header-nav-list--seperate"><a href="">Gallery</a></li>
+                    <li class="header-nav-list--seperate"><a href="">Contact us</a></li>
+                    <li class="header-nav-list--seperate"><a href="" style="color: #8B8E99;">Buy now</a></li>
+                </ul>
+            </div>
+      
+            <div class="header-search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+        </div>
+        <div class="header">
+            <div
+            style="
+              position: relative;
+            "
+            class="swiper">
+            <div class="swiper-wrapper">
+             <div class="swiper-slide" style="position: relative">
+                <div style="width: 100%">
+                  <img
+                    src="./accset/img/gallery/slide-hotel-1-bg.jpg" 
+                    />
+                </div>
+                
+              </div>
+            </div>
+            </div>
+            <div id="header">
+                <div class="col header-top">
+                  <div class="col top-contact" style="color:#605d5d;">
+                    <p>Have any questions?</p>
+                    <p ><i class="ti-mobile"></i><a href="tel:+61 383 766 284" style="color:#ed703a ;">+61 383 766 284</a></p>
+                    <p><i class="ti-email"></i><a href="mailto:noreply@envato.com" style="color:#ed703a ;">noreply@envato.com</a> </p>
+                  </div>
+                  <div class="col top-footer">
+                    <ul
+                    class="footer_icon icon_list"
+                    style="display: flex; justify-content: end; align-items: center">
+                        <li><a href="#" class=" ti-facebook"></a></li>
+                        <li><a href="#" class="ti-twitter"></a></li>
+                        <li><a href="#" class="ti-vimeo-alt"></a></li>
+                        <li><a href="#" class="ti-youtube"></a></li>
+                        <li><a href="#" class="ti-flickr"></a></li>
+                        <li><a href="#" class="ti-linkedin"></a></li>
+                        <li><a href="#" class="ti-pinterest"></a></li>
+                        <li><a href="#" class="ti-dribbble"></a></li>
+                  </ul>
+                  </div>
+                </div>
+                <div class="header-mid">
+                  <div class="logo">
+                    <img
+                      src="./accset/img/logol.png"
+                      alt=""
+                      style="object-fit: cover; height: 100%; width: 100%" />
+                  </div>
+                  <div class="control-header">
+                    <ul class="control-list">
+                      <li>
+                        <a href="./index.html"><span class="control_active">Home</span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span>Our hotel</span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span>Rooms</span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span>Gallery</span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span>Contact us</span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span>Buy now</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="search_header">
+                    <div class="icon_search">
+                      <i class="ti-search"></i>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="sub-header">
+                <div class="title">
+                    <p>
+                        Gallery
+                    </p>
+                    <ul class="breadcrum">
+                        <li>
+                            <a href="./index.html" id="li">Home</a>
+                            <i class="ti-angle-right"></i>
+                        </li>
+                        <li>Gallery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- body -->
+
+        <div class="content">
+            <div class="gallery-first">
+                <div class="first">
+                    <img src="./accset/img/gallery/home_hotel_gallery_1-300x300.jpg" alt="">
+                    <img src="./accset/img/gallery/home_hotel_gallery_2-300x300.jpg" alt="">
+                    <img src="./accset/img/gallery/home_hotel_gallery_3-300x300.jpg" alt="">
+                    <img src="./accset/img/gallery/home_hotel_gallery_4-300x300.jpg" alt="">
+                    <img src="./accset/img/gallery/home_hotel_gallery_5-300x300.jpg" alt="">
+                    <img src="./accset/img/gallery/home_hotel_gallery_6-300x300.jpg" alt="">
+                    <img src="./accset/img/gallery/home_hotel_gallery_7-300x300.jpg" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="gallery-second">
+                <div class="text-second">
+                    <h2>Use galleries in any place
+                        you want on website.</h2>
+                        <p>You can create any galleries you want and put them in any place on page you need. Also galleries can have any rows, columns and items. So let`s create own gallery and do it just like you want.</p>
+                </div>
+                <div>
+                    <div class="img-col">
+                        <img src="./accset/img/gallery/home_hotel_gallery_8-300x300.jpg" alt="">
+                        <img src="./accset/img/gallery/home_hotel_gallery_9-300x300.jpg" alt="">
+                        <img src="./accset/img/gallery/home_hotel_gallery_10-300x300.jpg" alt="">
+                    </div>
+                    <div class="img-col-2">
+                        <img src="./accset/img/gallery/home_hotel_gallery_11-300x300.jpg" alt="">
+                        <img src="./accset/img/gallery/home_hotel_gallery_12-300x300.jpg" alt="">
+                        <img src="./accset/img/gallery/home_hotel_gallery_13-300x300.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+
+        <div
+        class="footer"
+        style="background-color: #545454; padding: 30px 0">
+        <div
+          class="row"
+          style="width: 80%; margin: auto; display: flex; align-items: center">
+          <div
+            class="copyright col-half"
+            style="
+              font-size: 13px;
+              font-weight: 500;
+              display: flex;
+              color: #bbbbbb;
+            ">
+            © 2021 Betheme by
+            <a
+              href="#"
+              style="color: #ed703a; margin-left: 5px; margin-right: 5px">
+              Muffin group</a
+            >
+            | All Rights Reserved | Powered by
+            <a href="#" style="color: #ed703a; margin-left: 5px"> WordPress</a>
+          </div>
+          <div class="col-half icon_list">
+            <ul
+              class="footer_icon"
+              style="display: flex; justify-content: end; align-items: center">
+              <li><a href="" class=" ti-facebook"></a></li>
+              <li><a href="#" class="ti-twitter"></a></li>
+              <li><a href="#" class="ti-vimeo-alt"></a></li>
+              <li><a href="#" class="ti-youtube"></a></li>
+              <li><a href="#" class="ti-flickr"></a></li>
+              <li><a href="#" class="ti-linkedin"></a></li>
+              <li><a href="#" class="ti-pinterest"></a></li>
+              <li><a href="#" class="ti-dribbble"></a></li>
+
+            </ul>
+          </div>
+        </div>
+</div>
+
+    </div>
+    
+</body>
+</html>
